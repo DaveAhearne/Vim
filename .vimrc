@@ -17,3 +17,6 @@ set nowrap " Don't wrap text onto a newline if it goes off the screen
 
 " ## SEARCH SETTINGS ##
 set ignorecase " Ignore the case on search by default (can be overriden)
+
+" ## PLUGIN SETTINGS ##
+
