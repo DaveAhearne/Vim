@@ -1,7 +1,9 @@
 
 " ## FONT & COLOR SCHEMES ##
 syntax enable " Turns on syntax highlighting
-colorscheme slate " Sets the colorscheme
+set termguicolors " Enables 24 bit color
+colorscheme monokai_pro " Sets the colorscheme
+
 set guifont=Monaco:h12 " If its the GUI version, it will set the font to Monaco if its installed
 
 " ## TAB SETUP ##
