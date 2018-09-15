@@ -21,4 +21,7 @@ set nowrap " Don't wrap text onto a newline if it goes off the screen
 set ignorecase " Ignore the case on search by default (can be overriden)
 
 " ## PLUGIN SETTINGS ##
-let g:indent_guides_enable_on_vim_startup = 1 " Turns on indent guides on startup
+"let g:indent_guides_enable_on_vim_startup = 1 " Turns on indent guides on startup
+"let g:indent_guides_auto_colors = 0
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesOdd  guibg=darkgrey ctermbg=3
+"autocmd VimEnter,Colorscheme * :hi IndentGuidesEven guibg=lightgrey ctermbg=4
