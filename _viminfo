@@ -5,19 +5,46 @@
 |1,4
 
 # Value of 'encoding' when this file was written
-*encoding=latin1
+*encoding=utf-8
 
 
 # hlsearch on (H) or off (h):
 ~h
+# Last Search Pattern:
+~MSle0~/CPl
+
 # Last Substitute String:
 $
 
 # Command Line History (newest to oldest):
+:q!
+|2,0,1630415993,,"q!"
+:Explore
+|2,0,1630415971,,"Explore"
+:Explorer
+|2,0,1630415967,,"Explorer"
+:python3 print(3)
+|2,0,1630415791,,"python3 print(3)"
+:python3
+|2,0,1630415785,,"python3"
+:python print(3)
+|2,0,1630415780,,"python print(3)"
+:py3 pass
+|2,0,1630415751,,"py3 pass"
+:py pass
+|2,0,1630415747,,"py pass"
+:echo system('where python39.dll')
+|2,0,1630415321,,"echo system('where python39.dll')"
+:version
+|2,0,1630415099,,"version"
+:explore
+|2,0,1630360611,,"explore"
+:q
+|2,0,1630360564,,"q"
 :Vex
-|2,0,1630334714,,"Vex"
+|2,0,1630360494,,"Vex"
 :vex
-|2,0,1630334711,,"vex"
+|2,0,1630360492,,"vex"
 :color happy_hacking
 |2,0,1630334464,,"color happy_hacking"
 :colorscheme
@@ -28,12 +55,8 @@ $
 |2,0,1630334105,,"set guifont?"
 :set guifont=*
 |2,0,1630334091,,"set guifont=*"
-:q
-|2,0,1630334060,,"q"
 :set guifont
 |2,0,1630333964,,"set guifont"
-:q!
-|2,0,1630333694,,"q!"
 :set guifont=DejaVu Sans Mono:h13
 |2,0,1630333026,,"set guifont=DejaVu Sans Mono:h13"
 :vec
@@ -43,7 +66,13 @@ $
 
 # Search String History (newest to oldest):
 ? @$
-|2,1,1630334724,,"@$"
+|2,1,1630415978,,"@$"
+?/CPl
+|2,1,1630360621,47,"CPl"
+?/cplu
+|2,1,1630360615,47,"cplu"
+?/C
+|2,1,1630360573,47,"C"
 
 # Expression History (newest to oldest):
 
@@ -57,216 +86,244 @@ $
 |3,0,32,0,1,0,1630333693,":q"
 
 # File marks:
-'0  5  43  ~\Learning\C++\A_Tour_Of_C++\1_TheBasics\1_HelloWorld\main.cpp
-|4,48,5,43,1630334746,"~\\Learning\\C++\\A_Tour_Of_C++\\1_TheBasics\\1_HelloWorld\\main.cpp"
-'1  1  0  ~\Projects\Programming\Learning\ExampleC++\main.cpp
-|4,49,1,0,1630334569,"~\\Projects\\Programming\\Learning\\ExampleC++\\main.cpp"
-'2  4  0  ~\NERD_tree_1
-|4,50,4,0,1630332482,"~\\NERD_tree_1"
-'3  1  0  C:\Program Files (x86)\Vim\vim82\README.txt
-|4,51,1,0,1630332195,"C:\\Program Files (x86)\\Vim\\vim82\\README.txt"
+'0  25  5  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,48,25,5,1630415993,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'1  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,49,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'2  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,50,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'3  13  0  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,51,13,0,1630360818,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'4  13  0  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,52,13,0,1630360818,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'5  13  0  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,53,13,0,1630360818,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'6  13  0  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,54,13,0,1630360818,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'7  56  0  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,55,56,0,1630360606,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'8  56  0  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,56,56,0,1630360606,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+'9  55  0  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,57,55,0,1630360606,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
 
 # Jumplist (newest first):
--'  5  43  ~\Learning\C++\A_Tour_Of_C++\1_TheBasics\1_HelloWorld\main.cpp
-|4,39,5,43,1630334746,"~\\Learning\\C++\\A_Tour_Of_C++\\1_TheBasics\\1_HelloWorld\\main.cpp"
--'  11  0  ~\Learning\C++\A_Tour_Of_C++\1_TheBasics\
-|4,39,11,0,1630334723,"~\\Learning\\C++\\A_Tour_Of_C++\\1_TheBasics\\"
--'  10  0  ~\Learning\C++\A_Tour_Of_C++\
-|4,39,10,0,1630334721,"~\\Learning\\C++\\A_Tour_Of_C++\\"
--'  10  0  ~\Learning\C++\
-|4,39,10,0,1630334720,"~\\Learning\\C++\\"
--'  12  0  ~\Learning\
-|4,39,12,0,1630334719,"~\\Learning\\"
--'  40  0  ~
-|4,39,40,0,1630334718,"~"
--'  1  0  ~\Projects\Programming\Learning\ExampleC++\main.cpp
-|4,39,1,0,1630334569,"~\\Projects\\Programming\\Learning\\ExampleC++\\main.cpp"
--'  1  0  ~\Projects\Programming\Learning\ExampleC++\main.cpp
-|4,39,1,0,1630334569,"~\\Projects\\Programming\\Learning\\ExampleC++\\main.cpp"
--'  1  0  ~\Projects\Programming\Learning\ExampleC++\main.cpp
-|4,39,1,0,1630334569,"~\\Projects\\Programming\\Learning\\ExampleC++\\main.cpp"
--'  1  0  ~\Projects\Programming\Learning\ExampleC++\main.cpp
-|4,39,1,0,1630334569,"~\\Projects\\Programming\\Learning\\ExampleC++\\main.cpp"
--'  13  0  ~\Projects\Programming\Learning\
-|4,39,13,0,1630334493,"~\\Projects\\Programming\\Learning\\"
--'  13  0  ~\Projects\Programming\Learning\
-|4,39,13,0,1630334493,"~\\Projects\\Programming\\Learning\\"
--'  13  0  ~\Projects\Programming\Learning\
-|4,39,13,0,1630334493,"~\\Projects\\Programming\\Learning\\"
--'  13  0  ~\Projects\Programming\Learning\
-|4,39,13,0,1630334493,"~\\Projects\\Programming\\Learning\\"
--'  10  0  ~\Projects\Programming\
-|4,39,10,0,1630334491,"~\\Projects\\Programming\\"
--'  10  0  ~\Projects\Programming\
-|4,39,10,0,1630334491,"~\\Projects\\Programming\\"
--'  10  0  ~\Projects\Programming\
-|4,39,10,0,1630334491,"~\\Projects\\Programming\\"
--'  10  0  ~\Projects\Programming\
-|4,39,10,0,1630334491,"~\\Projects\\Programming\\"
--'  12  0  ~\Projects\
-|4,39,12,0,1630334489,"~\\Projects\\"
--'  12  0  ~\Projects\
-|4,39,12,0,1630334489,"~\\Projects\\"
--'  12  0  ~\Projects\
-|4,39,12,0,1630334489,"~\\Projects\\"
--'  12  0  ~\Projects\
-|4,39,12,0,1630334489,"~\\Projects\\"
--'  52  0  ~
-|4,39,52,0,1630334488,"~"
--'  52  0  ~
-|4,39,52,0,1630334488,"~"
--'  52  0  ~
-|4,39,52,0,1630334488,"~"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
--'  4  0  ~\NERD_tree_1
-|4,39,4,0,1630332482,"~\\NERD_tree_1"
+-'  25  5  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,25,5,1630415993,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  20  0  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\
+|4,39,20,0,1630415978,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\"
+-'  10  0  ~\CPlusPlus\A_Tour_Of_C++\
+|4,39,10,0,1630415976,"~\\CPlusPlus\\A_Tour_Of_C++\\"
+-'  11  0  ~\CPlusPlus\
+|4,39,11,0,1630415976,"~\\CPlusPlus\\"
+-'  32  0  ~
+|4,39,32,0,1630415974,"~"
+-'  1  0  ~
+|4,39,1,0,1630415957,"~"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
+-'  26  30  ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+|4,39,26,30,1630414848,"~\\CPlusPlus\\A_Tour_Of_C++\\1_TheBasics\\7_Pointers_and_References\\main.cpp"
 
 # History of marks within files (newest to oldest):
+
+> ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\7_Pointers_and_References\main.cpp
+	*	1630415988	0
+	"	25	5
+	^	25	6
+	.	25	5
+	+	26	29
+	+	25	5
+
+> ~\NERD_tree_1
+	*	1630360561	0
+	"	1	0
+	.	1	0
+	+	1	0
 
 > ~\Learning\C++\A_Tour_Of_C++\1_TheBasics\1_HelloWorld\main.cpp
 	*	1630334733	0
@@ -283,12 +340,6 @@ $
 > ~\CPlusPlus\A_Tour_Of_C++\1_TheBasics\1_HelloWorld\main.cpp
 	*	1630333005	0
 	"	7	0
-
-> ~\NERD_tree_1
-	*	1630332480	0
-	"	4	0
-	.	1	0
-	+	1	0
 
 > C:\Program Files (x86)\Vim\vim82\README.txt
 	*	1630332193	0
